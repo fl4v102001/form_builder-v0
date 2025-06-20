@@ -10,12 +10,13 @@ This project is a **Form Builder** web application built with Next.js and React.
 
 - **Dynamic Form Creation**: Users can add, remove, and reorder sections and questions within a form.
 - **Question Types**: Supports multiple question types, including:
-  - Short Answer
+  - Short Answer (with validation on the length of the text)
   - Paragraph
   - Multiple Choice
   - Checkboxes
   - Dropdown
   - Date
+  - Number (with validation for integers and set)
 - **UI/UX**: Utilizes Material UI and custom UI components for a modern, interactive experience.
 - **State Management**: Uses React state to manage the form structure and updates in real time.
 - **Persistence**: Integration with a backend or local storage for saving and updating forms.
